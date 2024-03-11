@@ -6,35 +6,23 @@
 
 BluetoothSerial SerialBT;
 
-int led = 15;
+const int led = 15;
 char comando; 
 
 void setup() {
   pinMode(led, OUTPUT);
-  
   Serial.begin(115200);
   SerialBT.begin("ESP32_LED_APP");
   Serial.println("Dispositivo iniciado, aguardando pareamento!");
 }
 
 void loop() {
-
   if (SerialBT.available()) {
-    
     comando = SerialBT.read();
-
     Serial.write(comando);
 
-    //Se recebu 1, ligo o led
-    if (comando == '1'){
-      digitalWrite(led,HIGH);
-    }
-
-    //Se recebeu 0, desligo o led
-    if (comando == '0'){
-      digitalWrite(led,LOW);
-    }
+    if (comando == '1') digitalWrite(led, HIGH);
+    if (comando == '0') digitalWrite(led, LOW);
   }
-
   delay(20);    
 }
