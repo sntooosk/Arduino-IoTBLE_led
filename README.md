@@ -34,6 +34,16 @@ Este repositório contém um aplicativo simples para controlar o ligamento e des
 2. Ative o Bluetooth do smartphone e pareie-o com o ESP32.
 3. Na interface do aplicativo, você verá um botão para ligar e desligar o LED.
 4. Pressione o botão correspondente para controlar o LED remotamente via Bluetooth.
+
+## •Tecnologias e Linguagens
+<div style="display: inline_block">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/arduino/arduino-original-wordmark.svg" height="50" width="60"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" height="50" width="60"/>
+</div>
+
+## • Referências e documentações
+| **[C++](https://en.cppreference.com/w/)**
+
 ## Assista 👇
 
 [<img alt="Youtube" src="https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white"/>](https://youtube.com/shorts/s3p-7POn6-c?si=z4E5fb5DDbHPAUys)
