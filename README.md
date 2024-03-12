@@ -20,7 +20,7 @@ Este repositório contém um aplicativo simples para controlar o ligamento e des
 2. Carregue o código no ESP32 para estabelecer a comunicação Bluetooth Serial e aguardar comandos do aplicativo.
 3. Instale o aplicativo no smartphone Android.
 
-![Aplicativo](https://raw.githubusercontent.com/DevTech-alpha/IoTBLE_led/main/github/screenshot/app_screen.png)
+![Aplicativo](https://raw.githubusercontent.com/DevTech-alpha/IoTBLE_led/main/github/screenshot/app.png)
 
 
 ## Instalação do Aplicativo:
